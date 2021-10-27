@@ -22,7 +22,7 @@ Large: 1.8
 
 --- 02 COLORS
 - Primary: #1C1CF0
-- Tints:
+- Tints: #e8e8fe
 
 
 - Shades: 
@@ -30,6 +30,7 @@ Large: 1.8
 
 - Accents:
 - Greys: #495057
+#212529
 
 
 --- 05 SHADOWS
@@ -57,8 +58,87 @@ html {
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Merriweather", sans-serif;
   line-height: 1;
   font-weight: 400;
+  color: #212529;
+}
+
+.hero-section {
+  background-color: #e8e8fe;
+  padding: 9.6rem 0;
+  height: 95vh;
+}
+
+.hero-container {
+  max-width: 140rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #212529;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #1c1cf0;
+  font-size: 2rem;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #1c1cf0;
+  color: #fff;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #1919d8;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
   color: #495057;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #e8e8fe;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.quote {
+  display: flex;
+  font-size: 1.4rem;
+  margin-top: 6.2rem;
 }
