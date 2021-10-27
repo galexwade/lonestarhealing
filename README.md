@@ -21,18 +21,18 @@ We look forward to working with you.
     Meaghan currently provides teletherapy services for private pay and insurance billable clients through SonderMind.
     Please check out their website and create a profile to find Meaghan Lightbody-Warner.
 
-### Areas of treatment include:
-
-    Anxiety, Depression, Trauma, Substance, Use/Addiction, Human Trafficking, Nightmares, Anger, Adjustment to life changes, Stress management, Oppositional Defiant Disorder, PTSD, Insomnia,
-    Life Transitions, Communication issues, Life Skills, Job-related Stress, Parent/Child Interaction, Behavioral Concerns, COVID-19 related stress, Hurrican Harvey related stress, Grief, Abandonment, Relationship, and Additional areas
-
 ## Clinical Supervision
 
-Clinical Supervision is offered to interested LMSWs who are working towards LCSW licensure. Having the right clinical supervisor is crucial to developing the necessary skill set, combining clinical and social work fundamentals. My goal is to be there as a guide towards LCSW licensure, while providing clinical skills, practical knowledge, and challenging you to explore clinical areas that you wish to grow in. I offer a supportive and open-minded space to help you gain strength and knowledge in being a social worker. Together, we will work towards strengthening your skill set and growing in areas you find challenging. To ensure we will be a great fit for each other, a phone or virtual meet and greet will occur prior to engaging in clinical supervision services.
+Clinical Supervision is offered to interested LMSWs who are working towards LCSW licensure. Having the right clinical supervisor is crucial to developing the necessary skill set, combining clinical and social work fundamentals. Our goal is to be there as a guide towards LCSW licensure, while providing clinical skills, practical knowledge, and challenging you to explore clinical areas that you wish to grow in. Meaghan offers a supportive and open-minded space to help you gain strength and knowledge in being a social worker. Together, we will work towards strengthening your skill set and growing in areas you find challenging. To ensure we will be a great fit for each other, a phone or virtual meet and greet will occur prior to engaging in clinical supervision services.
 
 ## Consultation And Presentation Services
 
 Lone Star Healing provides consultation and presentation services to agencies interested in areas of criminal justice, human trafficking, substance use, and various other areas. Please send an email for more information.
+
+### Areas of treatment include:
+
+    Anxiety, Depression, Trauma, Substance, Use/Addiction, Human Trafficking, Nightmares, Anger, Adjustment to life changes, Stress management, Oppositional Defiant Disorder, PTSD, Insomnia,
+    Life Transitions, Communication issues, Life Skills, Job-related Stress, Parent/Child Interaction, Behavioral Concerns, COVID-19 related stress, Hurrican Harvey related stress, Grief, Abandonment, Relationship, and Additional areas
 
 ### Meaghan Lightbody-Warner
 
