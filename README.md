@@ -18,8 +18,7 @@ We look forward to working with you.
 
 ## Counseling Services
 
-    Meaghan currently provides teletherapy services for private pay and insurance billable clients through SonderMind.
-    Please check out their website and create a profile to find Meaghan Lightbody-Warner.
+Meaghan currently provides teletherapy services for private pay and insurance billable clients. Please reach out via email for more information.
 
 ## Clinical Supervision
 
@@ -31,8 +30,8 @@ Lone Star Healing provides consultation and presentation services to agencies in
 
 ### Areas of treatment include:
 
-    Anxiety, Depression, Trauma, Substance, Use/Addiction, Human Trafficking, Nightmares, Anger, Adjustment to life changes, Stress management, Oppositional Defiant Disorder, PTSD, Insomnia,
-    Life Transitions, Communication issues, Life Skills, Job-related Stress, Parent/Child Interaction, Behavioral Concerns, COVID-19 related stress, Hurrican Harvey related stress, Grief, Abandonment, Relationship, and Additional areas
+Anxiety, Depression, Trauma, Substance, Use/Addiction, Human Trafficking, Nightmares, Anger, Adjustment to life changes, Stress management, Oppositional Defiant Disorder, PTSD, Insomnia,
+Life Transitions, Communication issues, Life Skills, Job-related Stress, Parent/Child Interaction, Behavioral Concerns, COVID-19 related stress, Hurrican Harvey related stress, Grief, Abandonment, Relationship, and Additional areas.
 
 ### Meaghan Lightbody-Warner
 
@@ -57,3 +56,4 @@ Meaghan graduated from Texas State University with a Masters in Social Work with
 - Email: Lonestarhealing@gmail.com
 - Instagram: instragram.com/lonestarhealing
 - Facebook: https://www.facebook.com/LoneStarHealing/
+- Website: https://lonestarhealing.netlify.app/
