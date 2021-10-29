@@ -99,6 +99,10 @@ body {
   align-items: center;
 }
 
+.center {
+  text-align: center;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
