@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="/css/general.css" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
 
     <script
       type="module"
@@ -29,17 +30,23 @@
   <body>
     <!-- NAVIGATION -->
     <header class="header-section">
-      <span class="logo">Lone Star Healing</span>
+      <a href="#">
+        <span class="logo">Lone Star Healing</span>
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">Home</a></li>
-          <li><a class="main-nav-link" href="#">Services</a></li>
-          <li><a class="main-nav-link" href="#">Areas of Treatment</a></li>
-          <li><a class="main-nav-link" href="#">Owner</a></li>
-          <li><a class="main-nav-link" href="#">FAQ</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Contact</a></li>
+          <li><a class="main-nav-link" href="#services">Services</a></li>
+          <li><a class="main-nav-link" href="#aot">Areas of Treatment</a></li>
+          <li><a class="main-nav-link" href="#owner">Owner</a></li>
+          <li><a class="main-nav-link" href="#faq">FAQ</a></li>
+          <li><a class="main-nav-link nav-cta" href="#contact">Contact</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -80,7 +87,7 @@
       </section>
 
       <!-- SERVICES SECTION -->
-      <section class="services-section">
+      <section class="services-section" id="services">
         <div class="container">
           <span class="subheading">Services</span>
           <h2 class="heading-secondary">Lone Star Healing is Here to Help</h2>
@@ -159,7 +166,7 @@
       </section>
 
       <!-- AREAS OF TREATMENT SECTION -->
-      <section class="aot-section">
+      <section class="aot-section" id="aot">
         <div class="container">
           <span class="subheading center">Areas of Treatment</span>
           <h2 class="heading-secondary center">
@@ -167,7 +174,7 @@
           </h2>
         </div>
 
-        <div class="container grid grid--3-cols">
+        <div class="container grid grid--3-cols treatment-mobile">
           <div class="treatment">
             <ul class="list">
               <li class="list-item">
@@ -280,14 +287,59 @@
       </section>
 
       <!-- OWNER SECTION -->
-      <section class="owner-section">
+      <section class="owner-section" id="owner">
         <div class="container">
           <span class="subheading">Owner</span>
           <h2 class="heading-secondary">About Meaghan</h2>
         </div>
+        <div class="container">
+          <div class="owner">
+            <div class="owner-text-box">
+              <h2 class="heading-secondary">Meaghan Lightbody-Warner</h2>
+              <p class="owner-text">
+                Meaghan Lightbody-Warner, (LCSW-S #57302), is a licensed board
+                certified social work supervisor in the state of Texas. She has
+                spent much of her career working in the field of criminal
+                justice and mental health. She has a strong passion for
+                advocating for those whose voices may not be heard or may have
+                been taken away. She has worked with individuals in the ranges
+                of childhood into adulthood. She has experience providing group,
+                individual, family, and crisis therapy services to a wide range
+                of populations.
+              </p>
+              <h3 class="skills-heading">Certifications:</h3>
+              <ul class="owner-skills-list">
+                <li class="owner-skills">TF-CBT Certified</li>
+                <li class="owner-skills">Dialectical Behavior Therapy (DBT)</li>
+                <li class="owner-skills">
+                  Eye Movement Desensitization Reprocessing (EMDR)
+                </li>
+                <li class="owner-skills">Cognitive Processing Therapy (CPT)</li>
+                <li class="owner-skills">Prolonged Exposure (PE)</li>
+                <li class="owner-skills">
+                  Mentalization Based Treatment (MBT)
+                </li>
+                <li class="owner-skills">Cognitive Behavior</li>
+                <li class="owner-skills">
+                  Therapy for Insomnia and Nightmares (CBT-I)
+                </li>
+                <li class="owner-skills">Motivational Interviewing</li>
+                <li class="owner-skills">
+                  Unified Protocol for Child and Adolescents
+                </li>
+              </ul>
+            </div>
+            <div
+              class="owner-img-box"
+              role="img"
+              aria-label="Meaghan Lightbody-Warner"
+            ></div>
+          </div>
+        </div>
       </section>
 
-      <section class="faq-section">
+      <!-- FAQ SECTION -->
+      <section class="faq-section" id="faq">
         <div class="container">
           <span class="subheading">FAQ</span>
           <h2 class="heading-secondary">Frequently Asked Questions</h2>
@@ -295,7 +347,7 @@
         <div class="accordian">
           <div class="item">
             <p class="number">01</p>
-            <p class="text">Where are these chairs assembled?</p>
+            <p class="text">How do I find the right therapist?</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon"
@@ -312,22 +364,18 @@
             </svg>
             <div class="hidden-box">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                voluptas asperiores quo. Eveniet, voluptatum laudantium! Cumque,
-                quos voluptate. Nihil ratione qui iusto dolore voluptatem
-                molestiae.
+                This is such an important task! You want to feel comfortable
+                with a professional whom you share personal information with.
+                Often times, you can feel vulnerable in therapy, and you need
+                someone who can support you. I always encourage my clients to
+                engage in a phone/video consultation prior to starting therapy
+                services to ensure that we are a good fit for each other.
               </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-              </ul>
             </div>
           </div>
           <div class="item">
             <p class="number">02</p>
-            <p class="text">How long do I have to return my chair?</p>
+            <p class="text">What can I expect to do in therapy?</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon"
@@ -344,22 +392,18 @@
             </svg>
             <div class="hidden-box">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                voluptas asperiores quo. Eveniet, voluptatum laudantium! Cumque,
-                quos voluptate. Nihil ratione qui iusto dolore voluptatem
-                molestiae.
+                For the first few sessions we will spend time getting to know
+                you and what brought you to therapy. This is called the
+                assessment phase. We will create a treatment plan with you so
+                that we know what the rest of our therapy will focus on.
+                Treatment plans are fluid and change frequently, as in therapy
+                one of our goals is growth.
               </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-              </ul>
             </div>
           </div>
           <div class="item">
             <p class="number">03</p>
-            <p class="text">Do you ship to countries outside of US?</p>
+            <p class="text">How do I pay for therapy?</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="icon"
@@ -376,22 +420,133 @@
             </svg>
             <div class="hidden-box">
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-                voluptas asperiores quo. Eveniet, voluptatum laudantium! Cumque,
-                quos voluptate. Nihil ratione qui iusto dolore voluptatem
-                molestiae.
+                Lone Star Healing accepts private pay and insurance clients.
+                Please share your preferred method of payment during
+                consultation. Insurances accepted include but not limited to:
+                Aetna, Blue Cross Blue Shield, Cigna, Medicare, and United
+                Healthcare.
               </p>
-              <ul>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-              </ul>
+            </div>
+          </div>
+          <div class="item">
+            <p class="number">04</p>
+            <p class="text">How often do we meet for therapy?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                Initially, clients are asked to come on a weekly basis and when
+                all are ready, drop down to bi0weekly or monthly. This is
+                something that we frequently address and revisit throughout our
+                work together.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <p class="number">05</p>
+            <p class="text">Do I have to have a diagnosis to be in therapy?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                You are welcome to seek out therapy whenever you see fit. You do
+                not have to have a previous mental health diagnosis to initiate
+                services.
+              </p>
+            </div>
+          </div>
+          <div class="item">
+            <p class="number">06</p>
+            <p class="text">What types of clients do you accept?</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+            <div class="hidden-box">
+              <p>
+                Lone Star Healing accept clients of all ages, races, identities,
+                and genders.
+              </p>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer" id="contact">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <p class="subheading">Contact us</p>
+          <span class="footer-logo">Lone Star Healing</span>
+          <address class="contacts">
+            <p>
+              <a class="footer-link" href="mailto:lonestarhealing@gmail.com"
+                >lonestarhealing@gmail.com</a
+              >
+            </p>
+          </address>
+
+          <ul class="social-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/lonestarhealing/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.facebook.com/LoneStarHealing/"
+                target="_blank"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2021</span> by Lone Star Healing
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
